@@ -17,6 +17,7 @@ const userSlice = createSlice({
 export const userAction = userSlice.actions;
 export default userSlice.reducer;
 
+//action creator
 export const fetchUserProfile = () => {
   return async (dispatch) => {
     const fetchData = async () => {
